@@ -1,0 +1,29 @@
+{
+  "name": "CoderFriends",
+  "version": "1.0.0",
+  "description": "CoderFriends ============",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChapmanJeff/CoderFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChapmanJeff/CoderFriends/issues"
+  },
+  "homepage": "https://github.com/ChapmanJeff/CoderFriends",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2",
+    "express-session": "^1.10.2",
+    "github": "^0.2.3",
+    "node-github": "0.0.3",
+    "passport": "^0.2.1",
+    "passport-github": "^0.1.5"
+  }
+}
